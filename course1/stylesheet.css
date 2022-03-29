@@ -1,0 +1,43 @@
+h1 {
+    /*Ganti warna */
+    color: #ff0000;
+    
+    /* Ganti ukuran font */
+    font-size: 10px;
+    
+    /* Ganti jenis font */
+    font-family: serif;
+    
+    /* Ganti warna backgroun */
+    background-color:  #f3f372;
+    
+    /* Ganti lebar dan tinggi*/
+    height: 80px;
+    width: 200px;
+    
+}
+
+p {
+    /*Ganti warna */
+    color: #0000ff;
+    
+    /* Ganti ukuran font */
+    font-size: 40px;
+    
+    /* Ganti jenis font */
+    font-family: "Lucida Grande";
+}
+
+img {
+    height: 50px;
+    width: 70px;
+}
+
+li {
+    color: #444;
+}
+
+/* Ganti warna "selected" ke #f0000 */
+.selected{
+    color: #ff0000;
+}
