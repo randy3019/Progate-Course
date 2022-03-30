@@ -1,0 +1,103 @@
+body{
+    font-family: "Avenir Next";
+}
+
+li{
+    list-style: none;
+}
+
+/* Gantikan background-color header ke #f7f2b4, dan height ke 90px */
+
+.header{
+    background-color: #26d0c9;
+    color: #fff;
+    height: 90px;
+}
+
+.header-logo{
+    font-size: 36px;
+    float: left;
+    padding: 20px 40px;
+}
+
+.header-list li{
+    float: left;
+    padding: 33px 20px;
+}
+
+/* Gantikan background-color main ke #bdf7f1, dan height ke 600px */
+.main{
+    padding: 100px 80px;
+}
+
+.copy-container h1{
+    font-size: 140px;
+}
+
+.copy-container h2{
+    font-size: 55px;
+}
+
+.copy-container span{
+    color:#ff4a4a;
+}
+
+.contents{
+    height: 500px;
+    margin-top: 100px;
+}
+
+.section-title{
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    /* Gantikan property padding-bottom ke 15px */
+    padding-bottom: 15px;
+    /* Gantikan property margin-bottom ke 50px */
+    margin-bottom: 50px;
+}
+.contents-item{
+    float: left;
+    /* Gantikan margin-right ke 40px */
+    margin-right: 40px;
+}
+.contents-item p{
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+/* Gantikan property padding-top milik contact-form to 100px */
+.contact-form{
+    padding-top: 100px;
+}
+
+input, textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit{
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+/* Gantikan background-color footer ke #ceccf3, dan height ke 270px */
+.footer{
+    background-color: #2f5167;
+    height: 120px;
+    color: #fff;
+    padding: 40px;
+}
+
+.footer-logo{
+    font-size: 32px;
+    float: left;
+}
+
+.footer-list{
+    float: right;
+}
+
