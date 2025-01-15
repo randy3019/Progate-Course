@@ -1,4 +1,4 @@
-===================== Progate Course Pratice ===============================
+===================== Course Pratice ===============================
 
 Pada course pertama mempelajari tentang "Basic HTML And CSS", mulai dari
 Pengenalan tag-tag dasar untuk menampilkan text,paragraf,gambar,
