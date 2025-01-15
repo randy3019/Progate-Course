@@ -1,6 +1,6 @@
 ******************************************************************************
-# Progate-Course
+# html-css Course
 
-Kumpulan file source code latihan HTML,CSS,dan JavaScript pada website progate
+Kumpulan file source code latihan HTML,CSS,dan JavaScript
 
 ******************************************************************************
