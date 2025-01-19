@@ -2,18 +2,48 @@
 <html lang="en">
 <head>
     <title>Profile Suzuku Atarashii Gakko Member</title>
+    <style>
+        table {
+            border-collapse: collapse; /* Untuk menghilangkan border ganda */
+            width: 100%; /* Agar tabel memenuhi lebar container */
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
-    <hr>
-    <h1>Profile Atarashii Gakko Member</h1>
-    <img src="latihan_profile_web.jpg" alt="suzuka_smile" width="400" height="500">
 
+    <nav>
+    <ul>
+      <li><a href="../link_multi_page/link_multi.html">HOME</a></li>
+      <li><a href ="https://atarashiigakko.com/">Atarashii-Gakko</a></li>
+      <li><a href="index.html#contact1">Kontak</a></li>
+    </ul>
+    </nav>
+
+    <hr>
+
+    <h1 style="text-align: center;">Profile Atarashii Gakko Member</h1>
+    
+    <center>
+    <img src="latihan_profile_web.jpg" style="display: block;" alt="suzuka_smile" width="400" height="500">
+    </center>
+    
     <h2>Biodata</h2>
         <p>Nama: <strong>Kanazawa Suzuka</strong></p>
         <p>Tgl: 29 November 2001</p>
         <p>Hobi: Menggambar</p>
         <p>Idol Group: Atarashii Gakko (main vocal)</p>
-        <p>Instagram: @suzuka_leaders/@Ssszzzkkkszk</p>
+
+    <h2>Sosial Media</h2>
+        <ul>
+            <li> <a href="https://www.instagram.com/suzuka_leaders/" target="_blank"> Instagram Suzuka</a></li>
+        </ul>
+
     <hr>
 
     <h2>Fakta Suzuka</h2>
@@ -25,19 +55,80 @@
             <p><q>Live now, with all your might. Do that, and you'll know who you are</q> <em>that's what youth means.</em></p>
         </blockquote>
 
-    <h2>Riwayat Pendidikan/Pekerjaan</h2>
-    <h3>Pendidikan</h3>
-        <p>Kanazawa Suzuka, atau yang akrab disapa Suzuka, bersekolah di <abbr title="Sekolah Menengah Atas">SMA</abbr> Caless Vocal & Dance School Osaka.</p>
-        <p>Suzuka adalah anggota dari grup idola Jepang Atarashii Gakko!.</p>
-
+    <h2>Pendidikan</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Tahun</th>
+                <th>Nama Sekolah</th>
+                <th>Gelar/Jurusan</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2020</td>
+                <td>Seishun Academy</td>
+                <td>Vocal Student</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td><abbr title="Sekolah Menengah Atas"> Dance School Osaka</abbr></td>
+                <td> Dance Student</td>
+            </tr>
+        </tbody> 
+    </table>
     <h3>Pekerjaan</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Posisi</th>
+                    <th>Tahun</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Songwriting Credits</td>
+                    <td>Tidak Diketahui</td>
+                </tr>
+                <tr>
+                    <td>Atrashii Gakko Main Vocal</td>
+                    <td>2017-Sekarang</td>
+                </tr>
+            </tbody>
+        </table>
+    <h2>Keahlian/Minat</h2>
+        
         <ul>
-            <li><del>Seishun Academy (2020)</del></li>
-            <li>Songwriting Credits</li>
-            <li><ins>Main Vocal at Group idol Atarashii Gakko</ins></li>
+            <li>Pertunjukan dan ekspresi</li>
+            <li>Vokal</li>
+            <li>Tari</li>
+            <li>Melukis</li>
         </ul>
-    
-    <p><small>Copyright &copy; 2025 tuxedo. All Rights Reserved.</small></p>
+    <hr>
+    <h4 id="contact1">Kontak</h4>
+
+        <p>Mohon isi Formulir data Fans Berikut:</p>
+        <form action="" method="post">
+            
+            <h4>Pilih Genre Musik Favorit Kamu</h4>
+            <input type="radio" id="rock" name="Genre" value="Rock"><label for="Rock">Rock</label>
+            <input type="radio" id="jpop" name="Genre" value="J-POP"><label for="J-POP">J-POP</label><br><br>
+
+            <h4>Gender:</h4>
+            <input type="checkbox"  name="pria" value="pria"><label for="pria">pria</label>
+            <input type="checkbox"  name="wanita" value="wanita"><label for="wanita">wanita</label><br><br>
+            
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email"><br><br>
+
+            <label for="pesan">Pesan:</label><br>
+            <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+            <button type="submit">Kirim</button>
+ 
+        </form>    
+        
+    <p><small>Copyright &copy; 2025 Tuxedo. All Rights Reserved.</small></p>
 
 </body>
 
